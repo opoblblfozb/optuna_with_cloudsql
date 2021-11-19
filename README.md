@@ -9,7 +9,7 @@
 ### 2.1download
 linux64
 ```
-curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
+wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
 ```
 mac64
 ```
