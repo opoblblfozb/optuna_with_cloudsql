@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dbconnection-optuna"
+version = "0.1.0"
+description = ""
+authors = ["Nonaka Kenya <k.nonaka@opt.ne.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+optuna = "^2.10.0"
+psycopg2 = "^2.9.2"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
